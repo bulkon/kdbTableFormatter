@@ -15,18 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="k.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="c.lib">
+    <Library Include="c.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="kdbTableFormatter.cpp">
       <Filter>Source Files</Filter>
-    </Library>
+    </ClCompile>
   </ItemGroup>
 </Project>
