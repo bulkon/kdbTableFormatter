@@ -201,8 +201,8 @@ string serialize_table(K data, string type) {
 }
 
 int main() {
-    char hostname[30] = "api.xmargin.io";
-    char creds[30] = "testuser:mypassword";
+    char hostname[30] = "localhost";
+    char creds[30] = "user:password";
     int handle = khpu(hostname, 14018, creds);
 
     char q[200] = "1 sublist trades_secure";
